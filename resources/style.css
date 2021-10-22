@@ -1,0 +1,618 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size:13px; 
+    color:#7c7c7c; 
+    background: url(../resources/images/Background\ 4.jpg) repeat;
+}
+
+img{
+    border:none;
+}
+
+h1{
+     font-size:26px; 
+     color:#fff; 
+     font-family: 'Lato', sans-serif; 
+     font-weight:normal; 
+     text-transform:uppercase;
+}
+
+h2{
+    font-family: 'Lato', sans-serif; 
+    font-size:19px; 
+    color:#d1869b; 
+    font-weight:normal;  
+    text-transform:uppercase;
+}
+
+P{
+    line-height:20px;
+}
+
+a{
+    text-decoration:none; 
+    color:#858585;
+}
+
+a:hover{
+    color:#d1869b;
+}
+
+.mar-top30 {
+    margin-top:30px;
+}
+
+.mar-top60 {
+    margin-top:60px;
+}
+
+.mar-right40 {
+    margin-right:40px;
+}
+.mar-right50 {
+    margin-right:50px;
+}
+
+.mar-bottom20 {
+    margin-bottom:20px;
+}
+
+.padding-top40 { 
+    padding-top:40px;
+}
+
+.float-left { 
+    float:left;
+}
+
+.float-right {
+     float:right;
+    }
+
+.clearing {
+     clear:both;
+    }
+
+
+.panel {
+}
+.title {
+}
+.content {    
+}
+
+.button {
+     margin-top:30px;
+    }
+
+.button a {
+    text-decoration:none; 
+    display:block; 
+    width:90px; 
+    height:30px; 
+    background:#d1869b; 
+    color:#ffffff; 
+    font-family: 'Lato', sans-serif; 
+    font-size:17px; 
+    line-height:30px; 
+    text-align:center; 
+    text-transform:uppercase; 
+    border:#d8d3d5 solid 1px;
+}
+
+.button a:hover { 
+    background:#efefef; 
+    color:#3d232f;
+}
+
+.wrap1{ 
+    background:url(../resources/images/bg1.jpg); 
+    border-bottom:#fff solid 1px; 
+    margin:0 auto;
+}
+
+.wrap2{
+    overflow:hidden; 
+    background:url(../resources/images/bg2.jpg); 
+}
+
+.wrap3{
+    overflow:hidden; 
+    background:url(../resources/images/bg3.jpg);
+}
+.wrap4{
+    overflow:hidden; 
+    background:url(../resources/images/bg4.jpg);
+}
+
+.container{
+    width:888px; 
+    margin:0 auto;
+    padding:40px 60px 0px 60px; 
+    background:url(../resources/images/shadows.png) repeat-y;
+}
+
+.page-content .content p{
+     padding-bottom:20px;
+    }
+
+/*-------------------------------------------------
+HEADER CLASSES
+-------------------------------------------------*/
+.header{
+    width:880px;
+    height:auto; 
+    margin:0 auto; 
+    padding-top:70px;
+}
+
+.logo{ 
+    float:left;
+}
+
+.logo h1{ 
+    font-size:42px; 
+    color:#533c47;
+}
+
+.menu{ 
+    float:right; 
+    margin-bottom:15px;
+}
+
+/*.menu ul li{ float:left; list-style:none; padding-right:10px; }
+.menu ul li a{font-family: 'Lato', sans-serif; font-size:18px; color:#533c47; display:block; text-align:center; padding:8px 24px 8px 24px; text-transform:uppercase;}
+.menu ul li a:hover{background:#d1869b; border:#fff solid 1px;  padding:7px 23px 7px 23px; color:#fff;}
+.menu ul li a.active{background:#d1869b; border:#fff solid 1px; padding:7px 23px 7px 23px; color:#fff;}
+*/
+/*-------------------------------------------------
+BANNER CLASSES
+-------------------------------------------------*/
+
+.banner{
+    margin:0 auto;
+}
+
+.banner-shadows{ 
+    background:url(../resources/images/shadows1.png) no-repeat center; 
+    width:878px; 
+    height:38px;
+}
+
+/*-------------------------------------------------
+BOX CLASSES
+-------------------------------------------------*/
+
+.box{ 
+    width:420px; 
+    float:left; 
+    margin-top:40px; 
+    padding-bottom:40px;
+}
+
+.box .title{ 
+    background:#523141; 
+    border:#603d47 solid 1px; 
+    padding:20px 0px 12px 20px; 
+    margin-bottom:30px;
+}
+
+.box .content p{ 
+    color:#937a81;
+}
+
+/*-------------------------------------------------
+SERVICES CLASSES
+-------------------------------------------------*/
+
+.title{ 
+    background:#d1869b; 
+    border:#ffffff solid 1px; 
+    padding:20px 0px 20px 20px; 
+    margin-bottom:30px;
+}
+
+.service{ 
+    float:left; 
+    width:260px; 
+    padding-bottom:40px;
+}
+
+.service img{ 
+    padding:6px; 
+    background:#fffbfa
+}
+
+.service .shadows{ 
+    background:url(../resources/images/shadows2.png) no-repeat; 
+    width:252px; 
+    height:20px;
+}
+
+.service .title{ 
+    background:none; 
+    border:none; 
+    padding:0px; 
+    margin-bottom:10px; 
+    margin-top:20px;
+}
+
+.service .title h2{ 
+    color:#533c47; 
+    font-weight:bold;
+}
+
+.service .button{ 
+    margin-top:34px;
+}
+
+/*-------------------------------------------------
+LEFTCOL CLASSES
+-------------------------------------------------*/
+
+.leftcol{ 
+    width:570px; 
+    float:left;
+}
+
+.leftcol .title{ 
+    background:#523141;
+}
+
+.leftcol h2{ 
+    color:#533c47; 
+    font-weight:bold; 
+    margin-bottom:20px;
+}
+
+.leftcol .panel{ 
+    border-bottom:#e1e1e1 solid 1px; 
+    padding-bottom:30px; 
+    margin-bottom:30px;
+}
+
+.leftcol .panel.borderbotm-none {
+    border-bottom:none;
+}
+
+/*-------------------------------------------------
+RIGHT CLASSES
+-------------------------------------------------*/
+
+.rightcol{ 
+    width:260px; 
+    float:right;
+}
+
+.rightcol .title{ 
+    background:#523141;
+}
+
+.content ul li{ 
+    list-style:none; 
+    border-bottom:#e1e1e1 solid 1px; 
+    line-height:40px; 
+    background:url(../resources/images/arrow.png) no-repeat right;
+}
+
+.content ul li.borderbotm-none{ 
+    border-bottom:none;
+}
+
+.content ul li a{ 
+    text-decoration:none; 
+    color:#858585;
+}
+
+.content ul li a:hover{ 
+    color:#d1869b;
+}
+
+/*-------------------------------------------------
+CONTACT FORM CLASSS
+-------------------------------------------------*/
+
+.contact-form {
+    padding:30px 30px 30px 0px; 
+    width:530px; 
+    float:left;
+}
+
+.contact-form label {
+    display: block; 
+    padding:10px 0 10px 0;
+}
+
+.contact-form label span {
+    display: block; 
+    color:#523141;
+    font-size:16px; 
+    font-family:'Lato', sans-serif; 
+    float:left; 
+    width:80px; 
+    text-align:left; 
+    padding:5px 20px 0 0;
+}
+
+.contact-form .input_text {
+    padding:10px 10px;
+    width:400px;
+    background: url(../resources/images/bg1.jpg);
+    border:none; 
+    color:#523141;  
+    outline:none;font-family: 'Lato', sans-serif; 
+    font-size:15px;
+}
+
+.contact-form .message{
+    padding:10px 10px;
+    width:400px;
+    background: url(../resources/images/bg1.jpg); 
+    border:none;overflow:hidden;height:150px; 
+    color:#523141; 
+    font-family: 'Lato', sans-serif; 
+    font-size:15px; 
+    outline:none;
+}
+
+.contact-form .button{
+    background:#d1869b; 
+    text-transform:uppercase; 
+    font-family: 'Lato', sans-serif; 
+    color:#fff; 
+    font-size:20px; 
+    border: none; 
+    margin-left:100px; 
+    margin-top:20px; 
+    width:100px; 
+    height:40px;
+}
+
+.address { 
+    float:left; 
+    width:370px; 
+    margin-left:30px;
+}
+
+.address .panel { 
+    border:none; 
+    color:#fff;
+}
+
+.address .panel .title h1 {  
+    color:#fff; 
+    padding-bottom:10px;
+}
+
+.address .panel .content p span { 
+    color:#fff;
+}
+
+.address .panel .content p a{ 
+    text-decoration:none; 
+    color:#ffc01d;
+}
+
+.address .panel .content p a:hover{
+    color:#fff;
+}
+
+/*-------------------------------------------------
+FOOTER CLASSES
+-------------------------------------------------*/
+
+.footer{ 
+    width:880px; 
+    margin:0 auto; 
+    padding-top:45px; 
+    padding-bottom:45px; 
+    text-align:center; 
+    color:#fff;
+}
+
+.footer a{ 
+    color:#fff; 
+    text-decoration:none;
+}
+
+.footer a:hover{ 
+    color:#d1869b;
+}
+
+.footer a.active{ 
+    color:#d1869b;
+}
+
+.footer span{ 
+    color:#d1869b;
+}
+
+
+
+
+.sf-menu, .sf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sf-menu li {
+	position: relative;
+}
+.sf-menu ul {
+	position: absolute;
+	display: none;
+	background:#fff;
+	z-index:100;
+		opacity:.9;
+filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+.sf-menu > li {
+	float:left; 
+	list-style:none; 
+	padding-right:10px;
+	color:#533c47; 
+	
+	
+}
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+	display: block;
+	position:absolute;
+}
+
+.sf-menu > li a{	font-family: 'Economica', sans-serif; font-size:18px; color:#533c47; text-align:left; padding:8px 24px 8px 24px; text-transform:uppercase;
+}
+.sf-menu a {
+	display: block;
+	position: relative;
+	font-family: 'Economica', sans-serif; font-size:18px; color:#533c47; text-align:center; padding:8px 24px 8px 24px; text-transform:uppercase;
+}
+
+.sf-menu a:hover {
+background:#d1869b; padding:8px 24px 8px 24px; color:#fff;}
+
+.sf-menu a.active {
+background:#d1869b;padding:8px 24px 8px 24px; color:#fff;}
+
+.sf-menu ul ul {
+	top: 0;
+	left: 100%;
+}
+
+
+/*** DEMO SKIN ***/
+.sf-menu {
+	float: left;
+	margin-bottom: 1em;
+}
+.sf-menu ul {
+	min-width: 12em; /* allow long menu items to determine submenu width */
+	*width: 12em; /* no auto sub width for IE7, see white-space comment below */
+	z-index:100;
+	
+}
+.sf-menu a {
+	padding: .75em 1em;
+	text-decoration:none;
+	zoom: 1; /* IE7 */
+	text-transform:none;
+}
+.sf-menu a {
+	color: #13a;
+	text-transform:none;
+}
+.sf-menu li {
+	white-space: nowrap; /* no need for Supersubs plugin */
+	*white-space: normal; /* ...unless you support IE7 (let it wrap) */
+	-webkit-transition: background .2s;
+	transition: background .2s;
+}
+
+.current{ text-transform:none;}
+
+.sf-menu li > ul a{ text-transform: none;}
+.sf-menu ul li { border-bottom:1px solid #e6e6e6;
+}
+.sf-menu ul ul li {
+	background: #fff;
+
+}
+.sf-menu li:hover,
+.sf-menu li.sfHover {
+	/* only transition out, not in */
+	background:#d1869b;
+}
+.sf-menu li.sfHover >a {
+	/* only transition out, not in */
+	color:#fff;
+}
+
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	padding-right: 2.25em;
+    min-width: 1px;
+}
+
+.sf-sub-indicator {
+	position: absolute;
+	display: block;
+	right: .75em;
+	top: .9em;
+	width: 10px;
+	height: 10px;
+	text-indent: -999em;
+	overflow: hidden;
+	background: url(../resources/images/arrows-ffffff.png) no-repeat 0 -100px;
+}
+
+li:hover > a .sf-sub-indicator,
+li.sfHover > a .sf-sub-indicator {
+	background-position: -10px -100px;
+
+}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator {
+	background-position: 0 0;
+}
+.sf-menu ul li:hover > a .sf-sub-indicator,
+.sf-menu ul li.sfHover > a .sf-sub-indicator {
+	background-position: -10px 0;
+
+}
+
+
+@media (max-width: 768px){
+    section .imgBox{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    section .contentBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    section .contentBox .formBox{
+        width: 100%;
+        padding: 40px;
+        background: rgb(255 255 255 / 0.9);
+        margin: 50px;
+    }
+}
+
+section .imgBox{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    section .contentBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    section .contentBox .formBox{
+        width: 100%;
+        padding: 40px;
+        background: rgb(255 255 255 / 0.9);
+        margin: 50px;
+    }
+
